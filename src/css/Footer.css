@@ -1,0 +1,47 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+}
+.contact{
+
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.contact h3{
+     color: white;
+     font-size: 22px;
+     margin-bottom: 20px;
+     text-align: center;
+}
+.street, .phone, .mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: gray;
+}
+.street .MuiSvgIcon-root {
+    color: #dd3333;
+    margin-right: 10px
+}
+.phone .MuiSvgIcon-root {
+    color: #dd3333;
+    margin-right: 10px
+}
+.mail .MuiSvgIcon-root {
+    color: #dd3333;
+    margin-right:10px
+}
+.copyright{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    align-items: center;
+}
+.copyright p{
+    text-align: center;
+    font-size: 17px;
+    color: lightgray;
+    padding-top: 20px;
+}

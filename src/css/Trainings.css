@@ -1,0 +1,53 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.col-2{
+    width: 50%;
+    height: auto;
+}
+.col1{
+    background-color: #dd3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trainingImg{
+    max-width: 542px;
+    max-height: 429px;
+}
+.col2{
+    background-color: rgb(248, 246, 246);
+}
+.link p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    font-size: 17px;
+    color: #dd3333;
+}
+.link p:hover{
+    color: gray;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        width: 100%;
+        display: inline;
+    }
+    .col-2{
+        width: 100%;
+        height: auto;
+    }
+    .trainingImg{
+        max-width: 342px;
+        max-height: 229px;
+        margin: 50px ;
+    }
+}

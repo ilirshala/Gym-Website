@@ -1,0 +1,92 @@
+.colona2 img{
+    height: 600px;
+    width: 600px;
+}
+.colona1 h1{
+    font-size: 45px;
+    color: gray;
+    font-weight: 600;
+}
+.colona1{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+}
+.colona1 .colorTit{
+    color: #dd3333;
+}
+.colona1 .sizeTitle{
+    font-size: 34px;
+}
+.colona1 p{
+    width: 90%;
+    font-size: 18px;
+    color: gray;
+    margin-top: 50px;
+}
+.row1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+}
+.lists h4{
+    font-size: 16px;
+    line-height: 18px;
+    color: dimgray;
+}
+.lists .listaPare > ul{
+    margin-top: 20px;
+
+}
+.lists .listaPare > ul > li{
+    color: gray;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.lists .listaDyte > ul{
+
+    margin-top: 20px;
+}
+.lists .listaDyte > ul > li{
+    color: gray;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    .col-2{
+        width: 100%;
+        height: auto;
+    }
+    .colona2 img{
+        height: 400px;
+        width: 400px;
+    }
+    .lists .listaDyte > ul > li{
+        color: gray;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .lists .listaPare > ul > li{
+        color: gray;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .lists .listaPare > ul{
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .lists{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 30px;
+    }
+}

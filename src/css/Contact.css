@@ -1,0 +1,35 @@
+.contact__header{
+    background-image: url('../img/newBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 310px;
+    object-fit: contain;
+}
+.contact__header h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 48px;
+    text-align: center;
+}
+.rowContact{
+    padding: 100px 0 ;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.col-2 .subtitle{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+}
+.paragraphs{
+    color: gray;
+}
+@media screen and (max-width: 768px){
+    iframe{
+        padding-top: 30px;
+        margin-left: -30px;
+    }
+    
+}

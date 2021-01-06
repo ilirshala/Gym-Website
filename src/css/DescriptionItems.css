@@ -1,0 +1,30 @@
+.descriptionItems{
+    width: 70%;
+    padding: 50px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.title img{
+    height: 28px;
+    width: 28px;
+    padding-right: 20px;
+}
+.title h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.title h3:hover{
+    color: #dd3333;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+.paragraph{
+    font-size: 18px;
+    color: gray;
+    word-spacing: 5px;
+    margin-bottom: -50px;
+    /* padding-bottom: 30px; */
+}
